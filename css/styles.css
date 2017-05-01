@@ -1,0 +1,415 @@
+.navbar-wrapper {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+    min-height: 111px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #506a85;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.navbar-wrapper .navbar .container .navbar-brand {
+    margin-right: 40px;
+}
+
+.navbar-brand:hover {
+     opacity: 0.8;
+ }
+
+.stylish-input-group{
+    margin-top: 6px;
+}
+.stylish-input-group .input-group-addon{
+    background: white;
+}
+.stylish-input-group .form-control{
+	border-right:0;
+	box-shadow:0 0 0;
+	border-color:#f9f9f9;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.carousel {
+    height: 880px;
+    margin-bottom: 100px;
+}
+
+
+
+.carousel-caption {
+    z-index: 10;
+}
+
+
+
+.carousel .item {
+    height: 880px;
+    background-color: #777;
+}
+
+.carousel-inner>.item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 880px;
+}
+
+.carousel-text-wrapper {
+    position: absolute;
+    top: 256px;
+    width: 943px;
+    left: calc(50% - 470px);
+    z-index: 1;
+    text-align: center;
+}
+
+.carousel-text-wrapper h1 {
+    font-size: 95px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+}
+.carousel-text-wrapper h4 small {
+    font-size: 25px;
+    color: #a3b1bf;
+}
+
+.carousel button {
+    top: 512px;
+    left: calc(50% - 146px);
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+.about {
+    width: 790px;
+    height: 166px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about p {
+    margin-top: 28px;
+}
+
+main .row {
+    margin-top: 60px;
+}
+
+main .glyphicon, .fa {
+    color: #00bc9c;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+main .text-box {
+    display: inline-block;
+    width: 269px;
+    float: right;
+}
+
+main .text-box p {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    margin-top: 27px;
+}
+
+.works {
+    background-color: #f2f5f7;
+    padding-top: 63px;
+    margin-top: 130px;
+}
+
+.works-about {
+    width: 790px;
+    height: 166px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+.works-about p {
+    margin-top: 28px;
+}
+
+.img-wrapper {
+    position: relative;
+}
+
+.works img {
+    width: 100%
+}
+
+.overlay-md {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease;
+  background-color: #00bc9c;
+}
+
+.overlay-md .glyphicon {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    color: #fff;
+    font-size: 40px;
+}
+
+.works-wrapper:hover .overlay-md {
+  opacity: 0.8;
+}
+
+.works-wrapper:hover h4 {
+  color: #00bc9c;
+}
+.work-info {
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-top: -9px;
+    padding-top: 37px;
+    border: 1px solid #e6e9ed;
+}
+
+.works-md {
+    margin-bottom: 83px;
+}
+
+.works-wrapper:hover .overlay-md {
+  opacity: 0.8;
+}
+
+.overlay-sm {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .4s ease;
+    background-color: #00bc9c;
+}
+
+.works-sm-wrapper {
+    position: relative;
+}
+
+.works-sm-wrapper .text-box {
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.works-sm-wrapper .text-box>p {
+    color: #fff;
+}
+.works-sm-wrapper .text-box>h4 {
+    color: #fff;
+}
+
+.works-sm-wrapper:hover .overlay-sm {
+    opacity: 0.9;
+}
+
+.works-indicators {
+    position: initial;
+    width: 110px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 37px;
+    margin-bottom: 116px;
+}
+
+.work-with-us {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.work-with-us .get-in-touch-btn {
+    padding: 12px 21px;
+    margin-top: 15px;
+    margin-bottom: 130px;
+    font-size: 17px;
+}
+
+footer {
+    background-color: #2f4052;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-ending {
+    background-color: #283645;
+    height: 82px;
+    padding-top: 30px;
+}
+
+.footer-ending p {
+    font-size: 17px;
+}
+.footer-col {
+    height: 363px;
+    padding-top: 45px;
+}
+
+.footer-col h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    /* font-weight: 100; */
+    /* line-height: 8px; */
+    text-align: left;
+    margin-bottom: 22px;
+}
+ .footer-col .navbar-brand:hover {
+     opacity: 0.4;
+ }
+.footer-col a {
+    padding: 0;
+    color: #a3b1bf;
+}
+
+.footer-col a .glyphicon-arrow-right {
+    font-size: 8px;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.footer-col a:hover .glyphicon-arrow-right {
+    margin-left: 10px;
+}
+
+.footer-col a:hover {
+    padding: 0;
+    color: #00bc9c;
+}
+
+.footer-col p {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8c9aa8;
+}
+
+.footer .row {
+    margin-bottom: 3px;
+}
+.works-xsm-wrapper {
+    position: relative;
+    width: 125px;
+    height: 85px;
+    display: inline-block;
+}
+
+.works-xsm-wrapper:hover .overlay-sm {
+    opacity: 0.9;
+}
+
+.overlay-sm .glyphicon {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+    color: #fff;
+    font-size: 20px;
+}
+
+.works-xsm-wrapper img {
+    width:inherit;
+    height:inherit;
+}
+
+.get-in-touch .glyphicon {
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+.footer .form-inline {
+    background-color: #4e5c6c;
+    padding: 3px;
+    border-radius: 3px;
+    width: 270px;
+    border: none;
+}
+
+.footer .form-control {
+    background-color: #4e5c6c;
+    width: 165px;
+    border: none;
+    box-shadow: none;
+}
+
+.footer .form-control {
+    border: none;
+    color: #fff;
+}
+
+.featurette-divider {
+    margin: 80px 0;
+}
+
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {}
+    /*.navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }*/
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        /*border-radius: 4px;*/
+    }
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
